@@ -1,2 +1,2 @@
 # dio-angular-twitter
-Twitter clone class, by DIO
+Twitter clone, class by DIO
