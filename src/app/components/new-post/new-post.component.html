@@ -12,7 +12,7 @@
     <div class="flex-1">
 
         <!-- textarea -->
-        <textarea [(ngModel)]="tweetMessage" (input)="changeTweet()"
+        <textarea [(ngModel)]="tweetMessage" (input)="changeTweet()" (keyup.enter)="sendTweet()"
         class="mb-2 bg-gray-200 focus:outline-none focus:shadow-outline
         focus:bg-gray-100 resize-none border border-transparent rounded-lg py-2 px-4
         block w-full appearance-none leading-normal font-light placeholder-gray-700" 
@@ -37,7 +37,7 @@
                 bg-blue-500 hover:bg-blue-600
                 font-medium text-white text-center shadow"
                 >
-                    Tweet
+                  Tweet
                 </button>
             </div>
         </div>
